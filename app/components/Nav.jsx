@@ -19,9 +19,8 @@ const Nav = () => {
   }
 
   return (
-    <nav className={`sticky top-0 z-10 w-full border-b ${theme === 'dark' ? 'bg-gray-900 text-white' : 'bg-gray-100 text-gray-900'}`}>
-      <div className="container flex h-14 items-center justify-between">
-        
+    <nav className={`sticky top-0 z-10 w-full border-b ${theme === 'dark' ? 'bg-gray-800 text-white' : 'bg-gray-100 text-gray-900'}`}>
+      <div className="container mx-auto flex h-14 items-center justify-between px-4 sm:px-6 md:px-8">
         {/* Logo on the left */}
         <a href="/" className="flex items-center space-x-2">
           <span className="font-bold text-xl">Mahak</span>
@@ -29,9 +28,9 @@ const Nav = () => {
 
         {/* Desktop Navigation Links */}
         <div className="hidden md:flex items-center space-x-6 text-sm font-medium">
-          <a href="#projects" className={`transition-colors ${theme === 'dark' ? 'hover:text-gray-300' : 'hover:text-foreground/80'} text-xl`}>Projects</a>
-          <a href="#talk" className={`transition-colors ${theme === 'dark' ? 'hover:text-gray-300' : 'hover:text-foreground/80'} text-xl`}>Contact</a>
-          <a href="#about" className={`transition-colors ${theme === 'dark' ? 'hover:text-gray-300' : 'hover:text-foreground/80'} text-xl`}>About</a>
+          <a href="#projects" className={`transition-colors ${theme === 'dark' ? 'hover:text-gray-400' : 'hover:text-gray-700'} text-lg`}>Projects</a>
+          <a href="#talk" className={`transition-colors ${theme === 'dark' ? 'hover:text-gray-400' : 'hover:text-gray-700'} text-lg`}>Contact</a>
+          <a href="#about" className={`transition-colors ${theme === 'dark' ? 'hover:text-gray-400' : 'hover:text-gray-700'} text-lg`}>About</a>
         </div>
 
         {/* Mobile Menu and Theme Toggle Icons */}
@@ -51,11 +50,11 @@ const Nav = () => {
                 <span className="sr-only">Toggle Menu</span>
               </Button>
             </SheetTrigger>
-            <SheetContent side="left">
+            <SheetContent side="left" className={`${theme === 'dark' ? 'bg-gray-800 text-white' : 'bg-white text-gray-900'}`}>
               <nav className="flex flex-col space-y-4 p-4">
-                <a href="#projects" className={`transition-colors ${theme === 'dark' ? 'text-white hover:text-gray-300' : 'text-foreground/60 hover:text-foreground/80'} text-xl`}>Projects</a>
-                <a href="#talk" className={`transition-colors ${theme === 'dark' ? 'text-white hover:text-gray-300' : 'text-foreground/60 hover:text-foreground/80'} text-xl`}>Contact</a>
-                <a href="#about" className={`transition-colors ${theme === 'dark' ? 'text-white hover:text-gray-300' : 'text-foreground/60 hover:text-foreground/80'} text-xl`}>About</a>
+                <a href="#projects" className={`transition-colors ${theme === 'dark' ? 'text-white hover:text-gray-400' : 'text-gray-700 hover:text-gray-900'} text-lg`}>Projects</a>
+                <a href="#talk" className={`transition-colors ${theme === 'dark' ? 'text-white hover:text-gray-400' : 'text-gray-700 hover:text-gray-900'} text-lg`}>Contact</a>
+                <a href="#about" className={`transition-colors ${theme === 'dark' ? 'text-white hover:text-gray-400' : 'text-gray-700 hover:text-gray-900'} text-lg`}>About</a>
               </nav>
             </SheetContent>
           </Sheet>

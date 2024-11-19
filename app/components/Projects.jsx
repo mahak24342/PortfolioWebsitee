@@ -55,7 +55,7 @@ const Projects = () => {
             <div className="p-6">
               <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">Links Sharing App</h3>
               <p className="text-gray-700 dark:text-gray-300 mb-4">
-                A brief description of the project. It includes features, technologies used, and the impact of the project.
+              Developed a social link-sharing app using Next.js and MongoDB for customizable user profiles.
               </p>
               <div className="flex space-x-4">
                 <a
@@ -88,7 +88,7 @@ const Projects = () => {
             <div className="p-6">
               <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">Github User Search App</h3>
               <p className="text-gray-700 dark:text-gray-300 mb-4">
-                A brief description of the project. It includes features, technologies used, and the impact of the project.
+              Next.js app with MongoDB to search GitHub profiles via API.
               </p>
               <div className="flex space-x-4">
                 <a
