@@ -22,7 +22,7 @@ const Projects = () => {
             <div className="p-6">
               <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">Travel Stories</h3>
               <p className="text-gray-700 dark:text-gray-300 mb-4">
-                A brief description of the project. It includes features, technologies used, and the impact of the project.
+              A Next.js and MongoDB platform for sharing, editing, and preserving travel adventures
               </p>
               <div className="flex space-x-4">
                 <a
