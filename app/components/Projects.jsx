@@ -86,13 +86,13 @@ const Projects = () => {
               className="w-full h-48 object-cover rounded-t-lg"
             />
             <div className="p-6">
-              <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">Github User Search App</h3>
+              <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">Your Expense Tracker</h3>
               <p className="text-gray-700 dark:text-gray-300 mb-4">
-              Next.js app with MongoDB to search GitHub profiles via API.
+              A react app with firebase where you can track all your expenses  
               </p>
               <div className="flex space-x-4">
                 <a
-                  href="https://github.com/mahak24342/github-User-Search-App"
+                  href="https://github.com/mahak24342/expense"
                   className="text-white bg-gray-900 dark:bg-gray-700 hover:bg-gray-800 dark:hover:bg-gray-600 px-4 py-2 rounded-lg transition-colors duration-300"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -100,7 +100,7 @@ const Projects = () => {
                   View Code
                 </a>
                 <a
-                  href="https://github-zeta-three.vercel.app/"
+                  href="https://expenseeetrackerrr.vercel.app/"
                   className="text-white bg-primary hover:bg-primary-dark px-4 py-2 rounded-lg transition-colors duration-300 dark:text-black"
                   target="_blank"
                   rel="noopener noreferrer"
